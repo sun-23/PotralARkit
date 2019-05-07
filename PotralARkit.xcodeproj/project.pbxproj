@@ -13,6 +13,7 @@
 		A4020D5B228149CA0048605B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4020D59228149CA0048605B /* Main.storyboard */; };
 		A4020D5D228149CD0048605B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4020D5C228149CD0048605B /* Assets.xcassets */; };
 		A4020D60228149CD0048605B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4020D5E228149CD0048605B /* LaunchScreen.storyboard */; };
+		A4020D6822814A080048605B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4020D6722814A080048605B /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A4020D5C228149CD0048605B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4020D5F228149CD0048605B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4020D61228149CD0048605B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4020D6722814A080048605B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		A4020D47228149CA0048605B = {
 			isa = PBXGroup;
 			children = (
+				A4020D6722814A080048605B /* Extensions.swift */,
 				A4020D52228149CA0048605B /* PotralARkit */,
 				A4020D51228149CA0048605B /* Products */,
 			);
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4020D58228149CA0048605B /* ViewController.swift in Sources */,
+				A4020D6822814A080048605B /* Extensions.swift in Sources */,
 				A4020D54228149CA0048605B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
